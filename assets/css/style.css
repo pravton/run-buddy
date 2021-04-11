@@ -10,6 +10,12 @@ body {
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply style to all sections */
+section {
+    padding: 60px;
 }
 
 /* Apply styles to <header> */
@@ -43,4 +49,81 @@ header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
+}
+
+/* Hero Style Start */
+.hero {
+    background-image: url("../images/hero-bg.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position:center;
+    position: relative;
+}
+
+/* Form Style Start */
+.hero-form {
+    border: #024e76 solid 3px;
+    background-color: #fce138;
+    padding: 20px;
+    color: #024e76;
+    width: 500px;
+    position: absolute;
+    right: 140px;
+    bottom: 120px;
+}
+
+.hero-form label {
+    margin: 0 5px;
+}
+
+.hero-form h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.hero-form p {
+    margin: 5px 0 15px 0;
+}
+
+.form-input {
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.hero-form button {
+    color: #fce138;
+    background-color: #024e76;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+/* Hero Style End */
+
+/* Footer Styling */
+footer {
+    background: #fce138;
+    width : 100; 
+    padding : 40px 35px;
+}
+
+footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+
+footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+
+footer a {
+    color : #024e76;
 }
