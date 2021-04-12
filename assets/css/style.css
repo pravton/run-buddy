@@ -104,7 +104,7 @@ header nav ul li a {
 }
 /* Hero Style End */
 
-/* Footer Styling */
+/* Footer Styling Start */
 footer {
     background: #fce138;
     width : 100; 
@@ -127,6 +127,7 @@ footer div {
 footer a {
     color : #024e76;
 }
+/* Footer styling end */
 
 /* Heading and border */
 .section-title {
