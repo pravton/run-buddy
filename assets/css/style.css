@@ -46,6 +46,7 @@ header h1 {
 header a {
     text-decoration: none;
     color: #fce138;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header nav {
@@ -101,13 +102,12 @@ footer a {
 
 /* Hero Style Start */
 .hero {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-wrap: wrap;
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
-    background-position:center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
     background-attachment: fixed;
     background-position:80%;
 }
@@ -125,6 +125,7 @@ footer a {
     font-style: italic;
     font-size: 55px;
     color: #fce138;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 /* Form Style Start */
@@ -135,8 +136,8 @@ footer a {
     color: #024e76;
     width: 40%;
     margin: 3.5%;
-    box-shadow: rgba(0, 0, 0, 0.5);
     border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .hero-form label {
@@ -498,6 +499,10 @@ footer a {
     .step-text {
         flex: 100%;
     }
+
+    .trainer-bio h3, .trainer-bio h4 {
+        display: block;
+      }
 }
   
   /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
@@ -529,5 +534,4 @@ footer a {
     .contact-form {
         order: 3;
     }
-
 }
